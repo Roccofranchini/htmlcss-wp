@@ -128,7 +128,7 @@ font-weight: 100;
 }
 
 .large-colum {
-    height: 630px;
+
     width: calc(60% - 40px);
     margin: auto 20px;
 }
@@ -144,6 +144,13 @@ font-weight: 100;
 /* footer */
 
 .ftr {
-    height: 60px;
-    background-color: rgb(174, 0, 255);
+    text-align: center;
+}
+
+.ftr h3 {
+    font-weight: 100;
+}
+
+.ftr i {
+    color: red;
 }
