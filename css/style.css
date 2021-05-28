@@ -53,7 +53,7 @@ header li {
 .main-content {
     height: 500px;
     margin: 30px auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner.jpg);
     background-position: center;
     border-radius: 15px;
 }
@@ -96,14 +96,36 @@ font-size: 35px;
 .slim-column {
     height: 630px;
     width: 20%;
-    background-color: lightblue;
+}
+
+.col-img1 {
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-1.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.col-img3 {
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-3.jpg);
+    background-size: 125%;
+    background-position: center;
+    border-radius: 15px;
 }
 
 .large-colum {
     height: 630px;
     width: calc(60% - 40px);
-    background-color: lightblue;
     margin: auto 20px;
+}
+
+.col-img2 {
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner-2.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
 }
 
 /* footer */
