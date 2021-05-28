@@ -94,7 +94,6 @@ font-size: 35px;
     }
 
 .slim-column {
-    height: 630px;
     width: 20%;
 }
 
@@ -104,6 +103,20 @@ font-size: 35px;
     background-size: 100%;
     background-position: center;
     border-radius: 15px;
+}
+
+.col-content {
+    padding-top: 30px;
+}
+
+.col-content h3 {
+font-weight: 100;
+} 
+
+.col-content p {
+    padding-top: 15px;
+    font-size: 18px;
+    line-height: 130%;
 }
 
 .col-img3 {
