@@ -24,10 +24,16 @@ display: table;
 clear: both;
 }
 
+.wht-txt {
+    color: white;
+}
+
+.gr-txt {
+    color: lightgrey;
+}
 /* header */
 
 .hdr {
-    height: 140px;
     margin-top: 5px;
     margin-bottom: 30px;
 }
@@ -47,7 +53,23 @@ header li {
 .main-content {
     height: 500px;
     margin: 30px auto;
-    background-color: rgb(211, 223, 52);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner.jpg);
+    background-position: center;
+    border-radius: 15px;
+}
+
+.main-description {
+    padding-top: 320px;
+    padding-left: 40px;
+}
+
+.main-description p {
+font-size: 17px;
+padding-top: 5px;
+}
+   
+.main-description h1 {
+font-size: 35px;
 }
 
 .sezione2 {
