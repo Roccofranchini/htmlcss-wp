@@ -1,0 +1,74 @@
+/* reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* generics */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+content: '';
+display: table;
+clear: both;
+}
+
+/* header */
+
+.hdr {
+    height: 140px;
+    margin-bottom: 30px;
+    background-color: rgb(235, 104, 206);
+}
+
+/* main */
+
+.main-content {
+    height: 500px;
+    margin: 30px auto;
+    background-color: rgb(211, 223, 52);
+}
+
+.sezione2 {
+    background-color: blue;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.row {
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: lightblue;
+}
+
+.slim-column {
+    height: 630px;
+    width: 20%;
+    background-color: lightblue;
+}
+
+.large-colum {
+    height: 630px;
+    width: calc(60% - 40px);
+    background-color: lightblue;
+    margin: auto 20px;
+}
+
+/* footer */
+
+.ftr {
+    height: 60px;
+    background-color: rgb(174, 0, 255);
+}
